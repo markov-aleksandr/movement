@@ -1,3 +1,4 @@
 <?php
-//require ../vendor
-echo 'Hello, Ivan.';
+ini_set('display_errors', 1);
+require '../vendor/autoload.php';
+\Core\Route::start();
