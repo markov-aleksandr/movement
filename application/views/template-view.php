@@ -8,6 +8,10 @@
     <title>Document</title>
 </head>
 <body>
+<div class="container-fluid">
+
+
 <?php include '../Application/Views/' . $contentView; ?>
+</div>
 </body>
 </html>
