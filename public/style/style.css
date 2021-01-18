@@ -1,17 +1,102 @@
-/* Error: Expected expression.
- *    ,
- * 86 |     padding-top:
- *    |                 ^
- *    '
- *   style.sass 86:17  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a    \2577 \a 86 \2502      padding-top:\d\a    \2502                  ^\a    \2575 \a   style.sass 86:17  root stylesheet";
+/*GLOBAL*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
+
+.container {
+  width: 1314px;
+  margin: 0 auto;
+}
+
+/*welcome*/
+.welcome, .second-sect, .task__change, .start {
+  height: 100vh;
+}
+
+.sect-move {
+  background: url("../images/Android-rafiki 1.png") no-repeat;
+  background-size: 35%;
+}
+.sect-move p {
+  vertical-align: bottom;
+  text-align: right;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 300px;
+  line-height: 366px;
+}
+
+.title {
+  padding-top: 50px;
+  font-size: 97px;
+  text-align: center;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+}
+
+/*second section*/
+.task__inner {
+  background: url("/images/Vector.svg") no-repeat;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.content form {
+  width: 650px;
+  height: 350px;
+  background-color: #FBFBFB;
+  padding: 85px 50px;
+  box-shadow: 6px 7px 15px -8px rgba(0, 0, 0, 0.25);
+  border-radius: 61px;
+  margin-right: 15px;
+}
+
+input[type=text] {
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 21px;
+  padding: 21px;
+  background: #E5E5E5;
+  width: 550px;
+  height: 80px;
+}
+
+/*task__change*/
+.task__change .form__inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.task__change .form__inner form {
+  width: 30%;
+  padding-top: auto;
+}
+.task__change .form__inner button {
+  margin: 25px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 24px 26px;
+}
+
+/*start*/
+.start__content button {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+  background: #B097FF;
+  position: relative;
+  left: 50%;
+  border: none;
+  color: #FBFBFB;
+  transform: translate(-50%, 50%);
+}
+
+/*# sourceMappingURL=style.css.map */
