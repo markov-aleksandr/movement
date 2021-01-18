@@ -13,10 +13,10 @@
         <div class="title">Інформація про тебе</div>
         <div class="content">
             <img src="/images/Android-amico 2.png" alt="">
-            <form action="">
+            <form method="post" action="/workout">
                 <div class="field">
-                    <input type="text" placeholder="Як тебе звати?">
-                    <input type="text" placeholder="Скільки тобі років?">
+                    <input name="name" type="text" placeholder="Як тебе звати?">
+                    <input name="age" type="text" placeholder="Скільки тобі років?">
                 </div>
             </form>
         </div>
@@ -36,10 +36,10 @@
 </section>
 
 <section class="start">
-    <div class="start__content">
+    <form class="start__content">
         <div class="title">Ви готові почати?</div>
-        <button class="start__btn">
+        <a type="submit"  class="start__btn">
             Рухнемося
-        </button>
-    </div>
+        </a>
+    </form>
 </section>
