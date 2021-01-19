@@ -1,4 +1,4 @@
-<section class="welcome">
+<section class="panel welcome" data-section-name="welcome">
     <div class="title"><h1>Movement</h1></div>
     <div class="subtitle">Створений для боротьби з малорухливим способом життя серед дітей під час карантину.</div>
     <div class="sect-move">
@@ -8,7 +8,7 @@
         хвилин ви будете в кращому настрою.
     </div>
 </section>
-<section class="second-sect">
+<section class="panel second-sect" data-section-name="about_you">
     <div class="task__inner">
         <div class="title">Інформація про тебе</div>
         <div class="content">
@@ -22,7 +22,7 @@
         </div>
     </div>
 </section>
-<section class="task__change">
+<section class="panel task__change" data-section-name="Select_task">
     <div class="title">Виберіть набір вправ</div>
     <div class="form__inner">
         <form action="">
@@ -35,7 +35,7 @@
     </div>
 </section>
 
-<section class="start">
+<section class="start panel options" data-section-name="start">
     <form class="start__content">
         <div class="title">Ви готові почати?</div>
         <a type="submit"  class="start__btn">
