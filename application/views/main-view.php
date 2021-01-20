@@ -13,7 +13,7 @@
         <div class="title">Інформація про тебе</div>
         <div class="content">
             <img src="/images/Android-amico 2.png" alt="">
-            <form method="post" action="/workout">
+            <form method="post" action="/workout" id="information">
                 <div class="field">
                     <input name="name" type="text" placeholder="Як тебе звати?">
                     <input name="age" type="text" placeholder="Скільки тобі років?">
@@ -38,8 +38,8 @@
 <section class="start panel options" data-section-name="start">
     <form class="start__content">
         <div class="title">Ви готові почати?</div>
-        <a type="submit"  class="start__btn">
+        <button type="submit" id="btn" class="start__btn" form="information">
             Рухнемося
-        </a>
+        </button>
     </form>
 </section>
