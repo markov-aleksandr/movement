@@ -41,6 +41,7 @@
 <section class="start panel options" data-section-name="start">
     <div class="start__content">
         <div class="title">Ви готові почати?</div>
+        
         <button type="submit" id="btn" class="start__btn" form="information">
             Рухнемося
         </button>
