@@ -2,7 +2,9 @@
     <div class="title"><h1>Movement</h1></div>
     <div class="subtitle">Створений для боротьби з малорухливим способом життя серед дітей під час карантину.</div>
     <div class="sect-move">
-        <div class="animate__animated animate__slow animate__fadeInLeftBig"><p>move</p></div>
+        <img src="/images/Android-rafiki 1.png" alt="">
+
+        <div class="animate__animated slide_text animate__slow animate__fadeInLeftBig"><p>move</p></div>
     </div>
     <div class="subtitle">Без руху гірше виробляються ендорфіни, які стимулюють людей радіти життю. Вже через десять
         хвилин ви будете в кращому настрою.

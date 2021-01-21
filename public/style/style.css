@@ -16,10 +16,10 @@
 }
 
 .sect-move {
-  background: url("../images/Android-rafiki 1.png") no-repeat;
-  background-size: 35%;
+  display: flex;
+  justify-content: space-between;
 }
-.sect-move p {
+.sect-move .slide_text {
   vertical-align: bottom;
   text-align: right;
   font-style: normal;
