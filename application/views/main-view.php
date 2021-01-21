@@ -8,15 +8,18 @@
         хвилин ви будете в кращому настрою.
     </div>
 </section>
+<script>
+
+</script>
 <section class="panel second-sect" data-section-name="about_you">
     <div class="task__inner">
         <div class="title">Інформація про тебе</div>
         <div class="content">
             <img src="/images/Android-amico 2.png" alt="">
-            <form  class="needs-validation" novalidate method="post" action="/workout" id="information">
+            <form  class="needs-validation" novalidate method="post" action="/workout"  id="information">
                 <div class="field">
-                    <input name="name" type="text" placeholder="Як тебе звати?">
-                    <input name="age" type="text" placeholder="Скільки тобі років?">
+                    <input name="name" type="text" required placeholder="Як тебе звати?">
+                    <input name="age" type="text" required placeholder="Скільки тобі років?">
                 </div>
             </form>
         </div>
@@ -36,10 +39,10 @@
 <!--</section>-->
 
 <section class="start panel options" data-section-name="start">
-    <form class="start__content">
+    <div class="start__content">
         <div class="title">Ви готові почати?</div>
         <button type="submit" id="btn" class="start__btn" form="information">
             Рухнемося
         </button>
-    </form>
+    </div>
 </section>
