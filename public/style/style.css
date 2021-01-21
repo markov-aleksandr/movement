@@ -29,7 +29,6 @@
 }
 
 .title {
-  padding-top: 50px;
   font-size: 97px;
   text-align: center;
 }
@@ -79,7 +78,6 @@ input[type=text] {
 }
 .task__change .form__inner form {
   width: 30%;
-  padding-top: auto;
 }
 .task__change .form__inner button {
   margin: 25px;
@@ -96,6 +94,14 @@ input[type=text] {
   border: none;
   color: #FBFBFB;
   transform: translate(-50%, 50%);
+}
+
+/*workout*/
+.carousel-item img {
+  margin: 0 auto;
+}
+.carousel-item p {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

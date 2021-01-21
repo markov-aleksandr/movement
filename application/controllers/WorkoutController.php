@@ -11,7 +11,7 @@ class WorkoutController extends Controller
 {
     public function actionIndex()
     {
-        $this->view->generate('gym-view.php', 'workout-view.php');
+        $this->view->generate('gym-view.php', 'template-view.php');
         if (isset($_POST["name"]) && isset($_POST["age"])) {
 
             // Формируем массив для JSON ответа

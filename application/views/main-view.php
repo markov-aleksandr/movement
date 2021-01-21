@@ -22,18 +22,18 @@
         </div>
     </div>
 </section>
-<section class="panel task__change" data-section-name="Select_task">
-    <div class="title">Виберіть набір вправ</div>
-    <div class="form__inner">
-        <form action="">
-            <button>Sit pellentesque molestie</button>
-            <button>Sit pellentesque molestie</button>
-            <button>Sit pellentesque molestie</button>
-            <button>Sit pellentesque molestie</button>
-        </form>
-        <img src="/images/Android-pana 2.png" alt="">
-    </div>
-</section>
+<!--<section class="panel task__change" data-section-name="Select_task">-->
+<!--    <div class="title">Виберіть набір вправ</div>-->
+<!--    <div class="form__inner">-->
+<!--        <form action="">-->
+<!--            <button>Sit pellentesque molestie</button>-->
+<!--            <button>Sit pellentesque molestie</button>-->
+<!--            <button>Sit pellentesque molestie</button>-->
+<!--            <button>Sit pellentesque molestie</button>-->
+<!--        </form>-->
+<!--        <img src="/images/Android-pana 2.png" alt="">-->
+<!--    </div>-->
+<!--</section>-->
 
 <section class="start panel options" data-section-name="start">
     <form class="start__content">
