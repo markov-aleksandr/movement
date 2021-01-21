@@ -13,7 +13,7 @@
         <div class="title">Інформація про тебе</div>
         <div class="content">
             <img src="/images/Android-amico 2.png" alt="">
-            <form method="post" action="/workout" id="information">
+            <form  class="needs-validation" novalidate method="post" action="/workout" id="information">
                 <div class="field">
                     <input name="name" type="text" placeholder="Як тебе звати?">
                     <input name="age" type="text" placeholder="Скільки тобі років?">
