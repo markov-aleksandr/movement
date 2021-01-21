@@ -1,21 +1,33 @@
-<section class="workout">
+<section class="workout container">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid dignissimos dolor hic illum iure, nemo neque, praesentium quam quia reiciendis repellat ut vitae. Enim esse est non officia tenetur.</p>
+                <p>Хай, <?=$data?>, давай зарядимося позитивною енергією. Виконаємо декілька фізичних вправ разом з нашим
+                    роботом.
+                    Підіймай руки як показано на ілюстрації. Організм вже почав вироблення дофаміну.
+                </p>
                 <img class="d-block " src="/images/move/1 (1).png" alt="First slide">
             </div>
-            <div class="carousel-item">                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid dignissimos dolor hic illum iure, nemo neque, praesentium quam quia reiciendis repellat ut vitae. Enim esse est non officia tenetur.</p>
+            <div class="carousel-item"><p><?=$data?>, виконуємо розминку сидячи на підлозі або навіть дивані. Але головне не
+                    заснути на дивані</p>
 
                 <img class="d-block " src="/images/move/1 (2).png" alt="Second slide">
             </div>
-            <div class="carousel-item">                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid dignissimos dolor hic illum iure, nemo neque, praesentium quam quia reiciendis repellat ut vitae. Enim esse est non officia tenetur.</p>
+            <div class="carousel-item"><p>Іван сидів дві години і його поперек вже втомився. Виконуй вправи за роботом,
+                    щоб не боліла спина.</p>
 
                 <img class="d-block" src="/images/move/1 (3).png" alt="Third slide">
             </div>
-            <div class="carousel-item">                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid dignissimos dolor hic illum iure, nemo neque, praesentium quam quia reiciendis repellat ut vitae. Enim esse est non officia tenetur.</p>
+            <div class="carousel-item"><p>Сова вміє кружляти шиєю на 360 градусів. А ми розминаємо шию разом з Ванею.
+                </p>
 
                 <img class="d-block " src="/images/move/1 (4).png" alt=" slide">
+            </div>
+            <div class="carousel-item"><p>Стрибаємо в ритмі гепарда і закінчуємо нашу маленьку розминку. Дякуємо що
+                    зробив це разом з нашим роботом Іваном.
+                </p>
+
+                <img class="d-block " src="/images/move/1 (5).png" alt=" slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
