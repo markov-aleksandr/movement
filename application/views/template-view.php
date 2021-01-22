@@ -16,7 +16,7 @@
 </head>
 <body>
 
-<?php include '../application/views/' . $contentView; ?>
+<?php include 'application/views/' . $contentView; ?>
 
 
 <!-- Optional JavaScript -->
