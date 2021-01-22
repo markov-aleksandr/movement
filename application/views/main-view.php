@@ -20,8 +20,16 @@
             <img src="/images/Android-amico 2.png" alt="">
             <form  class="needs-validation" novalidate method="post" action="/workout"  id="information">
                 <div class="field">
-                    <input name="name" type="text" required placeholder="Як тебе звати?">
-                    <input name="age" type="text" required placeholder="Скільки тобі років?">
+
+                    <input class="form-control" name="name" type="text" required placeholder="Як тебе звати?">
+                    <div class="invalid-feedback">
+                        Нам потрібно знати, як до тебе звертатися.
+                    </div>
+
+                    <input class="form-control" name="age" type="text" required  placeholder="Скільки тобі років?">
+                    <div class="invalid-feedback">
+                        Нам потрібно знати скільки тобі років.
+                    </div>
                 </div>
             </form>
         </div>
