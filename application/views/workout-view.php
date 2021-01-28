@@ -1,17 +1,21 @@
-<form>
+<form action="train" method="post">
     <p>Please select your preferred contact method:</p>
     <div>
         <input type="radio" id="contactChoice1"
-               name="contact" value="email">
-        <label for="contactChoice1">Email</label>
+               name="workout" value="set1">
+        <label for="contactChoice1">Набір вправ №1</label>
 
         <input type="radio" id="contactChoice2"
-               name="contact" value="phone">
-        <label for="contactChoice2">Phone</label>
+               name="workout" value="set2">
+        <label for="contactChoice2">Набір вправ №1</label>
 
         <input type="radio" id="contactChoice3"
-               name="contact" value="mail">
-        <label for="contactChoice3">Mail</label>
+               name="workout" value="set3">
+        <label for="contactChoice3">Набір вправ №1</label>
+
+        <input type="radio" id="contactChoice3"
+               name="workout" value="set4">
+        <label for="contactChoice3">Набір вправ №1</label>
     </div>
     <div>
         <button type="submit">Submit</button>
