@@ -1,4 +1,3 @@
-<div class="title">movement</div>
 
 <form class="change" action="train" method="post">
     <div>

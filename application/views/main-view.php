@@ -1,6 +1,5 @@
 
 <section class="panel welcome" data-section-name="welcome">
-    <div class="title">movement</div>
     <div class="subtitle">Створений для боротьби з сидячим образом життя під час карантину.</div>
     <div class="sect-move">
         <img src="/images/Android-rafiki 1.png" alt="">

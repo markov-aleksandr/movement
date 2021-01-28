@@ -16,6 +16,8 @@
 
 </head>
 <body>
+<div class="title"><a href="/">movement</a></div>
+
 <div class="container-fluid">
     <?php include '../application/views/' . $contentView; ?>
 </div>
