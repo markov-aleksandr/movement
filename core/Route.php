@@ -36,8 +36,6 @@ class Route
         if (file_exists($controllerPath)) {
             include '../application/controllers/' . $controllerFile;
         } else {
-            var_dump($_SERVER['REQUEST_URI']);
-            die();
             Route::errorPage404();
         }
         $controllerName = "Application\Controllers\\" . $controllerName;
@@ -47,8 +45,6 @@ class Route
         if (method_exists($controller, $action)) {
             $controller->$action();
         } else {
-            var_dump($_SERVER['REQUEST_URI']);
-            die();
             Route::errorPage404();
         }
     }
