@@ -45,11 +45,5 @@
         </button>
     </div>
     <img class="img_start" src="/images/робот.png" alt="">
-    <footer>
-        <div class="text-center p-3"">
-            © 2020 Copyright:
-            <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-        </div>
 
-    </footer>
 </section>
