@@ -9,8 +9,13 @@ use Core\Controller;
 
 class WorkoutController extends Controller
 {
-    public function actionIndex()
+    public function actionSelect()
     {
-            $this->view->generate('gym-view.php', 'template-view.php', $_POST['name']);
+        $this->view->generate('workout-view.php', 'template-view.php');
+    }
+
+    public function actionTrain()
+    {
+        $this->view->generate('workout-view.php', 'template-view.php', $_POST['name']);
     }
 }

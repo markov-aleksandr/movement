@@ -19,7 +19,7 @@
         <div class="title">Інформація про тебе</div>
         <div class="content">
             <img src="/images/Android-amico 2.png" alt="">
-            <form class="needs-validation" novalidate method="post" action="/workout" id="information">
+            <form class="needs-validation" novalidate method="post" action="/workout/select" id="information">
                 <div class="field">
 
                     <input class="form-control" name="name" type="text" required placeholder="Як тебе звати?">
