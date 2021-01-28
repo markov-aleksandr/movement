@@ -1,14 +1,13 @@
 
 <section class="panel welcome" data-section-name="welcome">
     <div class="title">movement</div>
-    <div class="subtitle">Створений для боротьби з малорухливим способом життя серед дітей під час карантину.</div>
+    <div class="subtitle">Створений для боротьби з сидячим образом життя під час карантину.</div>
     <div class="sect-move">
         <img src="/images/Android-rafiki 1.png" alt="">
 
         <div class="animate__animated slide_text animate__slow animate__fadeInLeftBig"><p>move</p></div>
     </div>
-    <div class="subtitle">Без руху гірше виробляються ендорфіни, які стимулюють людей радіти життю. Вже через десять
-        хвилин ви будете в кращому настрою.
+    <div class="subtitle">Рух - запорука здоров'я, щоб хворобам дати відсіч, потрібно займатися спортом. Спорт це те що приносить радість і задоволення.
     </div>
 </section>
 <script>
