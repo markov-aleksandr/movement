@@ -7,7 +7,7 @@
                     роботом.
                     Підіймай руки як показано на ілюстрації. Організм вже почав вироблення дофаміну.
                 </p>
-                <img class="d-block " src="/images/move/1 (1).png" alt="First slide">
+                <video src=/images/move/Project 1.avi"></video>
             </div>
             <div class="carousel-item"><p><?=$data?>, виконуємо розминку сидячи на підлозі або навіть дивані. Але головне не
                     заснути на дивані</p>
