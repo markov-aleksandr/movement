@@ -17,17 +17,10 @@ class WorkoutController extends Controller
 
     public function actionTrain()
     {
-        if ($_POST['workout'] == "set1") {
-            $this->view->generate("set1-view.php", 'template-view.php', $_SESSION['name']);
-        } elseif ($_POST['workout'] == "set2") {
-            $this->view->generate("set2-view.php", 'template-view.php', $_SESSION['name']);
-        } elseif ($_POST['workout'] == "set3") {
-            $this->view->generate("set3-view.php", 'template-view.php', $_SESSION['name']);
-        } elseif ($_POST['workout'] == "set4") {
-            $this->view->generate("set4-view.php", 'template-view.php', $_SESSION['name']);
+        $id = explode('/', $_SERVER['REQUEST_URI']);
+        $setId = $id['3'];
+        if ($setId) {
+            $this->view->generate("$setId-view.php", 'template-view.php');
         }
-
     }
-
-
 }

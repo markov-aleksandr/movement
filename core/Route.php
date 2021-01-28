@@ -25,16 +25,16 @@ class Route
         $actionName = 'action' . ucfirst($actionName);
 
         $modelFile = ucfirst($modelName) . '.php';
-        $modelPath = '../application/models/' . $modelFile;
+        $modelPath = 'application/models/' . $modelFile;
 
         if (file_exists($modelPath)) {
-            include '../application/models/' . $modelFile;
+            include 'application/models/' . $modelFile;
         }
 
         $controllerFile = ($controllerName) . '.php';
-        $controllerPath = '../application/controllers/' . $controllerFile;
+        $controllerPath = 'application/controllers/' . $controllerFile;
         if (file_exists($controllerPath)) {
-            include '../application/controllers/' . $controllerFile;
+            include 'application/controllers/' . $controllerFile;
         } else {
             Route::errorPage404();
         }

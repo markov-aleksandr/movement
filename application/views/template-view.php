@@ -16,10 +16,10 @@
 
 </head>
 <body>
-<div class="title"><a href="/">movement</a></div>
+<div class="title"><a href="/" style="color: #407BFF">movement</a></div>
 
 <div class="container-fluid">
-    <?php include '../application/views/' . $contentView; ?>
+    <?php include 'application/views/' . $contentView; ?>
 </div>
 
 <!-- Optional JavaScript -->
