@@ -115,14 +115,30 @@ footer {
   display: block;
   margin: 0 auto;
   width: 450px;
+  transform: rotate(-15deg);
 }
 
 /*workout*/
-.carousel-item img {
-  margin: 0 auto;
+.carousel-item iframe {
+  width: 550px;
+  height: 860%;
 }
 .carousel-item p {
   text-align: center;
+}
+
+.change {
+  text-align: center;
+}
+.change button {
+  font-size: 24px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+  background: #407bff;
+  position: relative;
+  border: none;
+  padding: 9px 12px;
+  border-radius: 9px;
+  color: #FBFBFB;
 }
 
 /*# sourceMappingURL=style.css.map */
