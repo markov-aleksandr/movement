@@ -105,6 +105,18 @@ input[type=text] {
   transition: 1000ms;
 }
 
+footer {
+  text-align: center;
+  height: 150px;
+  border-top: black 1px solid;
+}
+
+.img_start {
+  display: block;
+  margin: 0 auto;
+  width: 450px;
+}
+
 /*workout*/
 .carousel-item img {
   margin: 0 auto;

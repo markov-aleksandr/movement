@@ -36,18 +36,7 @@
         </div>
     </div>
 </section>
-<section class="panel task__change" data-section-name="Select_task">
-    <div class="title">Виберіть набір вправ</div>
-    <div class="form__inner">
-        <form action="">
-            <button>Sit pellentesque molestie</button>
-            <button>Sit pellentesque molestie</button>
-            <button>Sit pellentesque molestie</button>
-            <button>Sit pellentesque molestie</button>
-        </form>
-        <img src="/images/Android-pana 2.png" alt="">
-    </div>
-</section>
+
 
 <section class="start panel " data-section-name="start">
     <div class="start__content">
@@ -57,6 +46,12 @@
             Рухнемося
         </button>
     </div>
-   <div class="start__images"></div>
+    <img class="img_start" src="/images/робот.png" alt="">
+    <footer>
+        <div class="text-center p-3"">
+            © 2020 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
 
+    </footer>
 </section>
